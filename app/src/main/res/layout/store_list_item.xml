@@ -59,6 +59,8 @@
                     android:layout_weight="1" />
 
                 <Button
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
                     android:id="@+id/storeCallBtn"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
