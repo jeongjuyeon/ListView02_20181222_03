@@ -44,12 +44,12 @@ public class MainActivity extends BaseActivity {
         storeList.clear();
 
         storeList.add(new Store("BBQ", "종로구 10길", 4, "오전 9:00 ~ 오후 9:00", "010123456789"));
-        storeList.add(new Store("BBQ1", "종로구 9길", 5, "오전 9:00 ~ 오후 9:00", "146514561153"));
-        storeList.add(new Store("BBQ2", "종로구 8길", 6, "오전 9:00 ~ 오후 9:00", "0113212313213"));
-        storeList.add(new Store("BBQ3", "종로구 7길", 7, "오전 9:00 ~ 오후 9:00", "010123456789"));
-        storeList.add(new Store("BBQ4", "종로구 6길", 8, "오전 9:00 ~ 오후 9:00", "010123456789"));
-        storeList.add(new Store("BBQ5", "종로구 5길", 9, "오전 9:00 ~ 오후 9:00", "010123456789"));
-        storeList.add(new Store("BBQ6", "종로구 4길", 10, "오전 9:00 ~ 오후 9:00", "010123456789"));
+        storeList.add(new Store("BBQ1", "종로구 9길", 5, "오전 9:00 ~ 오후 9:00", "1"));
+        storeList.add(new Store("BBQ2", "종로구 8길", 6, "오전 9:00 ~ 오후 9:00", "2"));
+        storeList.add(new Store("BBQ3", "종로구 7길", 7, "오전 9:00 ~ 오후 9:00", "3"));
+        storeList.add(new Store("BBQ4", "종로구 6길", 8, "오전 9:00 ~ 오후 9:00", "4"));
+        storeList.add(new Store("BBQ5", "종로구 5길", 9, "오전 9:00 ~ 오후 9:00", "5"));
+        storeList.add(new Store("BBQ6", "종로구 4길", 10, "오전 9:00 ~ 오후 9:00", "6"));
     }
 
 
