@@ -7,12 +7,14 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
+import kr.tjeit.listview02_20181222_03.adapters.StoreAdapter;
 import kr.tjeit.listview02_20181222_03.datas.Store;
 
 public class MainActivity extends BaseActivity {
 
     ListView storeListView;
     List<Store> storeList = new ArrayList<Store>();
+    StoreAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,9 @@ public class MainActivity extends BaseActivity {
     @Override
     public void setValues() {
         fillStores();
+
+        mAdapter = new StoreAdapter(mContext, storeList);
+        storeListView.setAdapter(mAdapter);
     }
 
     //    가게 데이터를 채우기 위함 임시 메쏘드
